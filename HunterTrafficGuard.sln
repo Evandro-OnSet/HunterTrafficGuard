@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Helper", "00 - Helper", "{3568D52C-691A-44CB-8E3B-7A616F4B4563}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Domain", "01 - Domain", "{37F66154-7C80-4DE7-99FA-BB185EA492FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Data Access", "02 - Data Access", "{FEB226F2-02CB-4C56-A61E-F26313BB0BC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Web", "03 - Web", "{6CBE5970-2EF2-433B-88C9-5A0DB4390D7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HunterTrafficGuardWeb", "HunterTrafficGuardWeb\HunterTrafficGuardWeb.csproj", "{D9328B78-7D4E-44ED-9BD6-BDBDB07EE1F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HunterTrafficGuardAPI", "HunterTrafficGuardAPI\HunterTrafficGuardAPI.csproj", "{351962FF-EB1F-4EDE-8210-DC195FC91D4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HunterTrafficGuardDomain", "HunterTrafficGuardDomain\HunterTrafficGuardDomain.csproj", "{19BC52DE-4CD5-4B84-9FE4-4DD0F5B6B481}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9328B78-7D4E-44ED-9BD6-BDBDB07EE1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9328B78-7D4E-44ED-9BD6-BDBDB07EE1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9328B78-7D4E-44ED-9BD6-BDBDB07EE1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9328B78-7D4E-44ED-9BD6-BDBDB07EE1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351962FF-EB1F-4EDE-8210-DC195FC91D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351962FF-EB1F-4EDE-8210-DC195FC91D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351962FF-EB1F-4EDE-8210-DC195FC91D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351962FF-EB1F-4EDE-8210-DC195FC91D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19BC52DE-4CD5-4B84-9FE4-4DD0F5B6B481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BC52DE-4CD5-4B84-9FE4-4DD0F5B6B481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BC52DE-4CD5-4B84-9FE4-4DD0F5B6B481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BC52DE-4CD5-4B84-9FE4-4DD0F5B6B481}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9328B78-7D4E-44ED-9BD6-BDBDB07EE1F5} = {6CBE5970-2EF2-433B-88C9-5A0DB4390D7E}
+		{351962FF-EB1F-4EDE-8210-DC195FC91D4F} = {FEB226F2-02CB-4C56-A61E-F26313BB0BC5}
+		{19BC52DE-4CD5-4B84-9FE4-4DD0F5B6B481} = {37F66154-7C80-4DE7-99FA-BB185EA492FB}
+	EndGlobalSection
+EndGlobal
